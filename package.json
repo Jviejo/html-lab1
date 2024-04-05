@@ -1,0 +1,17 @@
+{
+  "name": "html_lab1",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-html-parser": "^6.1.13"
+  }
+}
