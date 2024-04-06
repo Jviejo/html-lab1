@@ -12,12 +12,19 @@
  ```bash
  bun install
  ```
-2. Escribir en el fichero public/index.html
-3. Hacer bun test
+2. Para ver la pagina web index.html con el estilo.css
+```bash
+bun run index.ts
+```
+3. y desde el navegador hacer http://localhost:4444
+
+4. Escribir en el fichero public/index.html. Se puede ver la pagina en el navegador con http://localhost:4444
+
+5. Hacer bun test
 ```bash
 bun test
 ```
-4. La tarea estara acabada cuando todos los test esten pasados.
+6. La tarea estara acabada cuando todos los test esten pasados.
 
 
 

@@ -7,7 +7,7 @@ async function setup() {
     const app = express()
     app.use(express.static(path.join(__dirname, 'public')))
     app.listen(
-        3333
+        4444
     )
     const response = await fetch("localhost:3333")
     const html = await response.text()
